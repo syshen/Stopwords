@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "809CEEB31CE37A19004B92B8"
-               BuildableName = "Stopwords-Mac.framework"
-               BlueprintName = "Stopwords-Mac"
+               BlueprintIdentifier = "809CEEC01CE37AA3004B92B8"
+               BuildableName = "StopwordsOSX.framework"
+               BlueprintName = "StopwordsOSX"
                ReferencedContainer = "container:Stopwords.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "809CEEB31CE37A19004B92B8"
-            BuildableName = "Stopwords-Mac.framework"
-            BlueprintName = "Stopwords-Mac"
+            BlueprintIdentifier = "809CEEC01CE37AA3004B92B8"
+            BuildableName = "StopwordsOSX.framework"
+            BlueprintName = "StopwordsOSX"
             ReferencedContainer = "container:Stopwords.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "809CEEB31CE37A19004B92B8"
-            BuildableName = "Stopwords-Mac.framework"
-            BlueprintName = "Stopwords-Mac"
+            BlueprintIdentifier = "809CEEC01CE37AA3004B92B8"
+            BuildableName = "StopwordsOSX.framework"
+            BlueprintName = "StopwordsOSX"
             ReferencedContainer = "container:Stopwords.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

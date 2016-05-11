@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Stopwords-Mac.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
 		<key>Stopwords.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>StopwordsOSX.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>StopwordsTests.xcscheme</key>
 		<dict>
@@ -38,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>809CEEB31CE37A19004B92B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>809CEEC01CE37AA3004B92B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
