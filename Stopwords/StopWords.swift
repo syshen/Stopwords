@@ -13,7 +13,7 @@ public class Stopwords {
     public let lang:String
     public let stopwords:[String]?
     
-    init(_ lang:String) {
+    public init(_ lang:String) {
         self.lang = lang
         self.stopwords = Stopwords.get(self.lang)
     }
