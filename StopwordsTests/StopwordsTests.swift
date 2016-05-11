@@ -21,7 +21,6 @@ class StopwordsTests: XCTestCase {
     }
     
     func testClassGet() {
-        Stopwords.mainBundle = NSBundle(forClass: StopwordsTests.self)
         if let words = Stopwords.get("english") {
             assert(words.count > 0)
         } else {
