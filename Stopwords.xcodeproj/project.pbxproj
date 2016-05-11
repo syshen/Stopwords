@@ -8,12 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		809CEE861CE3679D004B92B8 /* Stopwords.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CEE851CE3679D004B92B8 /* Stopwords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		809CEE8E1CE367B0004B92B8 /* stopwords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 809CEE8D1CE367B0004B92B8 /* stopwords.bundle */; };
+		809CEE901CE367B6004B92B8 /* StopWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CEE8F1CE367B6004B92B8 /* StopWords.swift */; };
+		809CEEA51CE36ED6004B92B8 /* StopwordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CEEA41CE36ED6004B92B8 /* StopwordsTests.swift */; };
+		809CEEA71CE36ED6004B92B8 /* Stopwords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809CEE821CE3679D004B92B8 /* Stopwords.framework */; };
+		809CEEAD1CE36EE3004B92B8 /* StopWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CEE8F1CE367B6004B92B8 /* StopWords.swift */; };
+		809CEEAE1CE36F89004B92B8 /* stopwords.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 809CEE8D1CE367B0004B92B8 /* stopwords.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		809CEEA81CE36ED6004B92B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809CEE791CE3679D004B92B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809CEE811CE3679D004B92B8;
+			remoteInfo = Stopwords;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		809CEE821CE3679D004B92B8 /* Stopwords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stopwords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		809CEE851CE3679D004B92B8 /* Stopwords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stopwords.h; sourceTree = "<group>"; };
 		809CEE871CE3679D004B92B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809CEE8D1CE367B0004B92B8 /* stopwords.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = stopwords.bundle; sourceTree = "<group>"; };
+		809CEE8F1CE367B6004B92B8 /* StopWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWords.swift; sourceTree = "<group>"; };
+		809CEEA21CE36ED6004B92B8 /* StopwordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopwordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CEEA41CE36ED6004B92B8 /* StopwordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwordsTests.swift; sourceTree = "<group>"; };
+		809CEEA61CE36ED6004B92B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +45,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		809CEE9F1CE36ED6004B92B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CEEA71CE36ED6004B92B8 /* Stopwords.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				809CEE841CE3679D004B92B8 /* Stopwords */,
+				809CEEA31CE36ED6004B92B8 /* StopwordsTests */,
 				809CEE831CE3679D004B92B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				809CEE821CE3679D004B92B8 /* Stopwords.framework */,
+				809CEEA21CE36ED6004B92B8 /* StopwordsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +77,21 @@
 		809CEE841CE3679D004B92B8 /* Stopwords */ = {
 			isa = PBXGroup;
 			children = (
+				809CEE8D1CE367B0004B92B8 /* stopwords.bundle */,
 				809CEE851CE3679D004B92B8 /* Stopwords.h */,
+				809CEE8F1CE367B6004B92B8 /* StopWords.swift */,
 				809CEE871CE3679D004B92B8 /* Info.plist */,
 			);
 			path = Stopwords;
+			sourceTree = "<group>";
+		};
+		809CEEA31CE36ED6004B92B8 /* StopwordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				809CEEA41CE36ED6004B92B8 /* StopwordsTests.swift */,
+				809CEEA61CE36ED6004B92B8 /* Info.plist */,
+			);
+			path = StopwordsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +126,38 @@
 			productReference = 809CEE821CE3679D004B92B8 /* Stopwords.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		809CEEA11CE36ED6004B92B8 /* StopwordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CEEAA1CE36ED6004B92B8 /* Build configuration list for PBXNativeTarget "StopwordsTests" */;
+			buildPhases = (
+				809CEE9E1CE36ED6004B92B8 /* Sources */,
+				809CEE9F1CE36ED6004B92B8 /* Frameworks */,
+				809CEEA01CE36ED6004B92B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				809CEEA91CE36ED6004B92B8 /* PBXTargetDependency */,
+			);
+			name = StopwordsTests;
+			productName = StopwordsTests;
+			productReference = 809CEEA21CE36ED6004B92B8 /* StopwordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		809CEE791CE3679D004B92B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Shih Yun Shen";
 				TargetAttributes = {
 					809CEE811CE3679D004B92B8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					809CEEA11CE36ED6004B92B8 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -111,6 +175,7 @@
 			projectRoot = "";
 			targets = (
 				809CEE811CE3679D004B92B8 /* Stopwords */,
+				809CEEA11CE36ED6004B92B8 /* StopwordsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +185,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809CEE8E1CE367B0004B92B8 /* stopwords.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CEEA01CE36ED6004B92B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CEEAE1CE36F89004B92B8 /* stopwords.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +204,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809CEE901CE367B6004B92B8 /* StopWords.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CEE9E1CE36ED6004B92B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CEEAD1CE36EE3004B92B8 /* StopWords.swift in Sources */,
+				809CEEA51CE36ED6004B92B8 /* StopwordsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		809CEEA91CE36ED6004B92B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809CEE811CE3679D004B92B8 /* Stopwords */;
+			targetProxy = 809CEEA81CE36ED6004B92B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		809CEE881CE3679D004B92B8 /* Debug */ = {
@@ -230,6 +322,25 @@
 		809CEE8B1CE3679D004B92B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Stopwords/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.syshen.Stopwords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		809CEE8C1CE3679D004B92B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -241,21 +352,25 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		809CEE8C1CE3679D004B92B8 /* Release */ = {
+		809CEEAB1CE36ED6004B92B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Stopwords/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = StopwordsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.syshen.Stopwords;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.syshen.StopwordsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		809CEEAC1CE36ED6004B92B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StopwordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.syshen.StopwordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -276,6 +391,14 @@
 			buildConfigurations = (
 				809CEE8B1CE3679D004B92B8 /* Debug */,
 				809CEE8C1CE3679D004B92B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		809CEEAA1CE36ED6004B92B8 /* Build configuration list for PBXNativeTarget "StopwordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CEEAB1CE36ED6004B92B8 /* Debug */,
+				809CEEAC1CE36ED6004B92B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

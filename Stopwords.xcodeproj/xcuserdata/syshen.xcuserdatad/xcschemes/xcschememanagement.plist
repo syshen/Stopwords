@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>StopwordsTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>809CEE811CE3679D004B92B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>809CEE941CE36E6A004B92B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>809CEEA11CE36ED6004B92B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
