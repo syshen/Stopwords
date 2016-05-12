@@ -1,4 +1,6 @@
-## Stopwords module written in Swift for both iOS and Mac
+## Swift Stopwords Module
+
+Stopwords module is written in Swift for both iOS and Mac
 
 - All the stop words are from http://alir3z4.github.io/stop-words/
 
